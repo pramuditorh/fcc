@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#main {
+    background: #eeee;
+    margin: 30px 8px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 15px 0px 5px 0px;
+}
+
+#headline {
+    margin: 50px 0;
+}
+
+ul {
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
