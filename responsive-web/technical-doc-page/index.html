@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>
+            CSS Documentation
+        </header>
+        <ul>
+            <li ><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li ><a class="nav-link" href="#What_You_Should_Already_Know">What You Should Already Know</a></li>
+            <li ><a class="nav-link" href="#Adding_CSS_to_HTML">Adding CSS to HTML</a></li>
+            <li ><a class="nav-link" href="#CSS_Selector">CSS Selector</a></li>
+            <li ><a class="nav-link" href="#CSS_Pseudo_Classes">CSS Pseudo Classes</a></li>
+            <li ><a class="nav-link" href="#CSS_Pseudo_Elements">CSS Pseudo Elements</a></li>
+            <li ><a class="nav-link" href="#CSS_Display">CSS Display</a></li>
+            <li ><a class="nav-link" href="#CSS_Grid">CSS Grid</a></li>
+            <li ><a class="nav-link" href="#CSS_Flexbox">CSS Flexbox</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <article>
+                <p><strong>CSS</strong> (an abbreviation of <strong>Cascading Style Sheets</strong>>) is the language that we use to style an HTML file, and tell the browser how should it render the elements on the page.</p>
+                <p>A CSS file contains several CSS rules. Each rule is composed by 2 parts:</p>
+                <ul>
+                    <li>the <strong>selector</strong></li>
+                    <li>the <strong>declaration block</strong></li>
+                </ul>
+            </article>
+        </section>
+        <section id="What_You_Should_Already_Know" class="main-section">
+            <header>What You Should Already Know</header>
+            <article>
+                <p>This guide assumes you have the following basic background:</p>
+                <ul>
+                    <li>Basic familiarity with using computers.</li>
+                    <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+                    <li>A basic understanding of creating and managing files.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="Adding_CSS_to_HTML" class="main-section">
+            <header>Adding CSS to HTML</header>
+            <article>
+                <h3>1: Using the <code>link</code> tag</h3>
+                <p>To use this method, you add a <code>link</code> tag with the <code>href</code> attribute pointing to the CSS file you want to include. You add it inside the <code>head</code> tag of the site (not inside the <code>body</code> tag):</p>
+                <code class="main-code">&ltlink rel="stylesheet" type="text/css" href="myfile.css"&gt</code>
+                <h3>2: Using the <code>style</code> tag</h3>
+                <p>Instead of using the <code>link</code> tag to point to separate stylesheet containing our CSS, we can add the CSS directly inside a <code>style</code> tag. This is the syntax:</p>
+                <code class="main-code">
+                    &ltstyle&gt 
+                        ...our CSS...
+                    &lt/style&gt
+                </code>
+                <h3>3: Inline style</h3>
+                <p>Inline styles are the third way to add CSS to a page. We can add a <code>style</code> attribute to any HTML tag, and add CSS into it.</p>
+                <code class="main-code">&ltdiv style=""&gt...&lt/div&gt</code>
+            </article>
+        </section>
+        <section id="CSS_Selector" class="main-section">
+            <header>CSS Selector</header>
+            <article>
+                <p>We can target that element using this selector <code>p</code> , which targets all the element using the <code>p</code> tag in the page. A simple CSS rule to achieve what we want is:</p>
+                <code class="main-code">
+                    p { 
+                        color: yellow; 
+                    }
+                </code>
+            </article>
+        </section>
+        <section id="CSS_Pseudo_Classes" class="main-section">
+            <header>CSS Pseudo Classes</header>
+            <article>
+                <p>Lorem ipsum</p>
+            </article>
+        </section>
+        <section id="CSS_Pseudo_Elements" class="main-section">
+            <header>CSS Pseudo Elements</header>
+            <article>
+                <p>Lorem ipsum</p>
+            </article>
+        </section>
+        <section id="CSS_Display" class="main-section">
+            <header>CSS Display</header>
+            <article>
+                <p>Lorem ipsum</p>
+            </article>
+        </section>
+        <section id="CSS_Grid" class="main-section">
+            <header>CSS Grid</header>
+            <article>
+                <p>Lorem ipsum</p>
+            </article>
+        </section>
+        <section id="CSS_Flexbox" class="main-section">
+            <header>CSS Flexbox</header>
+            <article>
+                <p>Lorem ipsum</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
